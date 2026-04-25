@@ -1,0 +1,76 @@
+nav{
+    background-color: var(--font-color-blue-dark);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+#simple-blue{
+    color: red;
+    font-size: var(--navbar-font-size);
+}
+
+#shop-red{
+    color: blue;
+    font-size: var(--navbar-font-size);
+}
+
+.site-name {
+    display: flex;
+    width: fit-content;
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input{
+    height: var(--defualt-height-search-box-items);
+    width: 400px;
+    padding-left: 20px;
+    border-radius: 5px 0px 0px 5px;
+    transition: var(--defult-transition);
+    border: 3px solid white;
+}
+
+.search-box input:focus{
+    border-color: rgb(110, 110, 255);
+    outline: none;
+}
+
+.search-box button{
+    height: var(--defualt-height-search-box-items);
+    width: 100px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: var(--font-color-blue);
+    color: white;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    transition: var(--defult-transition);
+}
+
+.nav-links a:hover{
+    color: var(--font-color-blue);
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    width: 257px;
+    justify-content: space-between;
+    font-size: 17px;
+}
