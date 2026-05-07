@@ -1,0 +1,57 @@
+footer{
+    background-color: var(--font-color-blue-dark);
+}
+
+.footer-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.about-simple-shop p{
+    width: 300px;
+}
+
+.footer-container p{
+    color: var(--font-color-black-low);
+}
+
+.footer-container h3 {
+    color: var(--font-color-blue-low);
+    margin-bottom: 20px;
+}
+
+.footer-container div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container div a{
+    text-decoration: none;
+    color: var(--font-color-black-low);
+    transition: 0.4s;
+}
+
+.footer-container div a:hover{
+    color: var(--font-color-blue-low);
+}
+
+.footer-liner hr{
+    width: 80%;
+    background-color: var(--font-color-black-low);
+}
+
+.footer-liner {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.copyright {
+    margin-top: 30px;
+    text-align: center;
+    color: var(--font-color-black-low);
+}

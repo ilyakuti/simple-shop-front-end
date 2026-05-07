@@ -53,7 +53,7 @@ nav{
     width: 100px;
     border: none;
     border-radius: 0px 5px 5px 0px;
-    background-color: var(--font-color-blue);
+    background-color: var(--font-color-blue-low);
     color: white;
 }
 
